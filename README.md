@@ -1,5 +1,5 @@
 # awesome-selfhosted-nixos
-Example configurations for self-hosting stuff on NixOS
+Example configurations for self-hosting stuff on [NixOS](https://nixos.asia/en/nixos-tutorial).
 
 ## Music
 
