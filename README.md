@@ -5,6 +5,8 @@ Example configurations for self-hosting stuff on [NixOS](https://nixos.asia/en/n
 
 ### [navidrome](https://www.navidrome.org/)
 
+navidrome is a Web UI (with compatible mobile apps) that streams your music files.
+
 ```nix
 services.navidrome = {
   enable = true;
