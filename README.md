@@ -1,6 +1,6 @@
 # awesome-selfhosted-nixos
 
-This repo catalogues various services to self-host on [NixOS](https://nixos.asia/en/nixos-tutorial), along with a good first configuration that user can try on to begin with. The goal being to promote the simplest way to replace the various proprietary services using a machine running NixOS. 
+This repository catalogs various services that can be self-hosted on [NixOS](https://nixos.asia/en/nixos-tutorial), providing users with an effective initial configuration to start with. The objective is to promote the simplest methods for replacing various proprietary services using a machine running NixOS.
 
 ## Media
 
