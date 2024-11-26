@@ -1,7 +1,23 @@
 # awesome-selfhosted-nixos
+
 Example configurations for self-hosting stuff on [NixOS](https://nixos.asia/en/nixos-tutorial).
 
-## Music
+## Media
+
+For managing videos, music and photos.
+
+### [Jellyfin](https://jellyfin.org/)
+
+Jellyfin provides a self-hosted alternative to the likes of Netflix and Spotify.
+
+```nix
+services.jellyfin = {
+  enable = true;
+  openFirewall = true;
+};
+```
+
+**Tip**: Create a dedicated folder (e.g.: `/Data`) owned by the Unix group `jellyfin` organizing your content inside it.
 
 ### [navidrome](https://www.navidrome.org/)
 
