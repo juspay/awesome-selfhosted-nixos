@@ -1,6 +1,6 @@
 # awesome-selfhosted-nixos
 
-Example configurations for self-hosting stuff on [NixOS](https://nixos.asia/en/nixos-tutorial).
+This repo catalogues various services to self-host on [NixOS](https://nixos.asia/en/nixos-tutorial), along with a good first configuration that user can try on to begin with. The goal being to promote the simplest way to replace the various proprietary services using a machine running NixOS. 
 
 ## Media
 
@@ -21,7 +21,7 @@ services.jellyfin = {
 
 ### [navidrome](https://www.navidrome.org/)
 
-navidrome is a Web UI (with compatible mobile apps) that streams your music files.
+navidrome is a Web UI (with compatible mobile apps) that streams your music files, providing a self-hosted alternative to Spotify.
 
 ```nix
 services.navidrome = {
