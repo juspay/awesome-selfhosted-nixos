@@ -37,6 +37,8 @@ services.navidrome = {
 
 **Tip**: Use `yt-dlp -x <url>` to download YouTube videos as audio, and place them under `MusicFolder` (owned by `navidrome` user) to start populating your music library ([credit](https://x.com/sridca/status/1860154543247655267)).
 
+## File management
+
 ### [Syncthing](https://syncthing.net/)
 
 Like Dropbox, but OSS and better. We use home-manager because this way it works on both Linux & macOS.
