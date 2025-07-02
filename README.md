@@ -36,3 +36,33 @@ services.navidrome = {
 ```
 
 **Tip**: Use `yt-dlp -x <url>` to download YouTube videos as audio, and place them under `MusicFolder` (owned by `navidrome` user) to start populating your music library ([credit](https://x.com/sridca/status/1860154543247655267)).
+
+### [Syncthing](https://syncthing.net/)
+
+Like Dropbox, but OSS and better. We use home-manager because this way it works on both Linux & macOS.
+
+Once activated, go to http://localhost:8384 to access the Syncthing GUI.
+
+```nix
+# Add this to your home-manager config
+{
+  services.syncthing = {
+    enable = true;
+
+    # Optional: Configure settings
+    settings = {
+      gui = {
+        theme = "dark";
+        insecureAdminAccess = false;
+      };
+      options = {
+        urAccepted = -1; # Disable usage reporting
+        crashReportingEnabled = false;
+        announceEnabled = true;
+        localAnnounceEnabled = true;
+        relaysEnabled = true;
+      };
+    };
+  };
+}
+```
