@@ -41,6 +41,8 @@ services.navidrome = {
 
 Like Dropbox, but OSS and better. We use home-manager because this way it works on both Linux & macOS.
 
+Once activated, go to http://localhost:8384 to access the Syncthing GUI.
+
 ```nix
 # Add this to your home-manager config
 {
