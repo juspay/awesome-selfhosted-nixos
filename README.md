@@ -17,7 +17,9 @@ services.jellyfin = {
 };
 ```
 
-**Tip**: Create a dedicated folder (e.g.: `/Data`) owned by the Unix group `jellyfin` organizing your content inside it.
+**Tip**: 
+- Create a dedicated folder (e.g.: `/Data`) owned by the Unix group `jellyfin` organizing your content inside it.
+- There is an official Android app, but non-unofficial apps exist to provide new functionality (e.g.: [offline support](https://github.com/jellyfin/jellyfin-android/issues/139#issuecomment-1370128361))
 
 ### [navidrome](https://www.navidrome.org/)
 
